@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/styles.css"/>
+    </head>
+
+    <body>
+        {{>header}}
+
+        <div class="main-content">
+
+            <form id="update-task-form">
+                <p id="zip-number"></p>
+                <p id="description"></p>
+                <p id="is-blocking"></p>
+                <p id="is-complete"></p>
+                <p id="updated-status"></p>
+                <p id="created-status"></p>
+                <div class="checkbox-div">Completed</div>
+                <div class="checkbox-center"><input id="is-complete-box" type="checkbox"/></div>
+                <button>Update</button>
+            </form>
+
+            <p id="status-message"></p>
+
+        </div>
+
+        <script src="/js/update_task.js"></script>
+    </body>
+</html>

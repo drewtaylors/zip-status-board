@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/styles.css"/>
+    </head>
+
+    <body>
+        {{>header}}
+
+        <div class="main-content">
+
+            <p id="zip-number"></p>
+            <p id="description"></p>
+            <p id="is-blocking"></p>
+            <p id="updated-status"></p>
+            <p id="created-status"></p>
+            <p id="is-complete"></p>
+        
+            <button id="update-task-button"><a href="/maintenance/update">Update</a></button>
+            <button><a href="/maintenance/delete">Delete</a></button>
+        </div>
+
+        <script src="/js/task.js"></script>
+    </body>
+</html>

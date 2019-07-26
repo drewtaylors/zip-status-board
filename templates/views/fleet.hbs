@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/styles.css"/>
+    </head>
+
+    <body>
+        {{>header}}
+
+        <div class="main-content">
+
+            <form id="fleet-search-form">
+                <input id="fleet-search" placeholder="Search by zip number"/>
+                <button type="search">Search</button>
+                <button type="reset">Reset</button>
+            </form>
+            <button><a href="/fleet/add">Add</a></button>
+            <button><a href="/fleet/delete">Delete</a></button>
+
+            <table id="fleet-table"></table>
+        
+        </div>
+
+        <script src="/js/fleet.js"></script>
+    </body>
+</html>

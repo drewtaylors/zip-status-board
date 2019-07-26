@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/styles.css"/>
+    </head>
+
+    <body>
+        {{>header}}
+
+        <div class="main-content">
+
+            <form id="add-task-form">
+                <input id="zip-number-input" type="text" placeholder="Zip Number"/>
+                <input id="description-input" type="text" placeholder="Problem"/>
+                <div class="checkbox-div">Blocks Flight</div>
+                <div class="checkbox-center"><input id="is-blocking-box" type="checkbox"></div>
+                <div class="checkbox-div">Completed</div>
+                <div class="checkbox-center"><input id="is-complete-box" type="checkbox"></div>
+                <button>Submit</button>
+            </form>
+
+            <p id="status-message"></p>
+        
+        </div>
+
+        <script src="/js/add_task.js"></script>
+    </body>
+</html>

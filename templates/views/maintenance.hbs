@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/styles.css"/>
+    </head>
+
+    <body>
+        {{>header}}
+
+        <div class="main-content">
+            <form id="task-search-form">
+                <input id="task-search" placeholder="Search by zip number"/>
+                <button type="search">Search</button>
+                <button type="reset">Reset</button>
+            </form>
+            <button><a href="/maintenance/add">Add</a></button>
+            <button><a href="/maintenance/delete">Delete</a></button>
+
+            <table id="task-table"></table>
+        </div>
+
+        <script src="/js/maintenance.js"></script>
+    </body>
+</html>
